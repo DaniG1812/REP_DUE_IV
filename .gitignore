@@ -1,0 +1,23 @@
+# --- ORACLE DATABASE & APEX ---
+# Credentials and Wallets
+*.wallet
+wallet/
+cwallet.sso
+tnsnames.ora
+sqlnet.ora
+
+# SQLcl / SQL*Plus
+*.log
+sqlcl_debug.log
+spool.sql
+
+# APEX Specific
+# No ignore los .sql de la app, pero sí logs de proceso
+apex_export.log
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
